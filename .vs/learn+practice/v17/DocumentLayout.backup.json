@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\efcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|solutionrelative:efcore\\efcore_training\\efcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A4B5B-9966-48E1-AAA4-D0F733201BE2}|learn\u002Bpractice\\learn\u002Bpractice.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\learn\u002Bpractice\\efcore\\efcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4A4B5B-9966-48E1-AAA4-D0F733201BE2}|learn\u002Bpractice\\learn\u002Bpractice.csproj|solutionrelative:learn\u002Bpractice\\efcore\\efcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|solutionrelative:efcore\\efcore_training\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A4B5B-9966-48E1-AAA4-D0F733201BE2}|learn\u002Bpractice\\learn\u002Bpractice.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\learn\u002Bpractice\\efcore\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4A4B5B-9966-48E1-AAA4-D0F733201BE2}|learn\u002Bpractice\\learn\u002Bpractice.csproj|solutionrelative:learn\u002Bpractice\\efcore\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\efcore_training.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|solutionrelative:efcore\\efcore_training\\efcore_training.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EFCore.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\EFCore.cs",
+              "RelativeDocumentMoniker": "efcore\\efcore_training\\EFCore.cs",
+              "ToolTip": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\EFCore.cs*",
+              "RelativeToolTip": "efcore\\efcore_training\\EFCore.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T19:10:11.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "efcore_training",
+              "DocumentMoniker": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\efcore_training.csproj",
+              "RelativeDocumentMoniker": "efcore\\efcore_training\\efcore_training.csproj",
+              "ToolTip": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\efcore_training.csproj",
+              "RelativeToolTip": "efcore\\efcore_training\\efcore_training.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T19:02:51.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "programEF.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\learn\u002Bpractice\\efcore\\programEF.cs",
+              "RelativeDocumentMoniker": "learn\u002Bpractice\\efcore\\programEF.cs",
+              "ToolTip": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\learn\u002Bpractice\\efcore\\programEF.cs",
+              "RelativeToolTip": "learn\u002Bpractice\\efcore\\programEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T17:57:30.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "programEF.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\programEF.cs",
+              "RelativeDocumentMoniker": "efcore\\efcore_training\\programEF.cs",
+              "ToolTip": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\programEF.cs",
+              "RelativeToolTip": "efcore\\efcore_training\\programEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:12:05.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EFCore.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\learn\u002Bpractice\\efcore\\EFCore.cs",
+              "RelativeDocumentMoniker": "learn\u002Bpractice\\efcore\\EFCore.cs",
+              "ToolTip": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\learn\u002Bpractice\\efcore\\EFCore.cs",
+              "RelativeToolTip": "learn\u002Bpractice\\efcore\\EFCore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T06:39:37.624Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
