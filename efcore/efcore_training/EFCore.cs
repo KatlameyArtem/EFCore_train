@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography.X509Certificates;
 
-namespace learn_practice.efcore
+namespace efcore_training
 {
     public class NorthwindDb : DbContext
     {
@@ -30,16 +30,16 @@ namespace learn_practice.efcore
             //string connectionString = $"Data Source = {path}";
             //WriteLine($"Connection : {connectionString}");
 
-            
 
-            string connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=Northwind;Trusted_Connection=True;";
-            Console.WriteLine($"Connection string: {connectionString}");
+
+            string connectionString = @"Server=.\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;Encrypt=False;TrustServerCertificate=True;";
             optionsBuilder.UseSqlServer(connectionString);
+
 
             //Server = (localdb)\MSSQLLocalDB;      Локальный сервер SQL (устанавливается с Visual Studio)
             //Database = Northwind;                Имя базы данных (ты уже импортировал файл .sql)
             //Trusted_Connection = True;          Использует Windows аутентификацию
-            
+
             base.OnConfiguring(optionsBuilder);
         }
     }

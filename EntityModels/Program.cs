@@ -19,7 +19,7 @@ public class Product
 
     [Column("UnitsInStock")]
     public short? Stock { get; set; }
-    public bool Discounted { get; set; }
+    public bool Discontinued { get; set; }
 
     public int CategoryId { get; set; }
     public virtual Category Category { get; set; } = null!;
