@@ -1,23 +1,104 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\efcore_training.csproj": {}
+    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\efcore_training.csproj": {
+    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\efcore_training.csproj",
+        "projectUniqueName": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj",
         "projectName": "efcore_training",
-        "projectPath": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\efcore_training.csproj",
-        "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\obj\\",
+        "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj",
+        "packagesPath": "C:\\Users\\Tema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Новая папка\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj": {
+                "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj",
+        "projectName": "EntityModels",
+        "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj",
+        "packagesPath": "C:\\Users\\Tema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Новая папка\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tema\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,12 +130,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\",
+  "WorkspaceRootPath": "C:\\Users\\Tema\\Desktop\\learn\u002Bpractice\\EFCore_train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|solutionrelative:efcore\\efcore_training\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|c:\\users\\tema\\desktop\\learn\u002Bpractice\\efcore_train\\efcore\\efcore_training\\autogenmodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|solutionrelative:efcore\\efcore_training\\autogenmodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\efcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|solutionrelative:efcore\\efcore_training\\efcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|c:\\users\\tema\\desktop\\learn\u002Bpractice\\efcore_train\\efcore\\efcore_training\\autogenmodels\\northwinddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE1BF6B-E762-4327-8EA0-4293E4E6E2F8}|efcore\\efcore_training\\efcore_training.csproj|solutionrelative:efcore\\efcore_training\\autogenmodels\\northwinddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,39 +17,33 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EFCore.cs",
-              "DocumentMoniker": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\EFCore.cs",
-              "RelativeDocumentMoniker": "efcore\\efcore_training\\EFCore.cs",
-              "ToolTip": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\EFCore.cs",
-              "RelativeToolTip": "efcore\\efcore_training\\EFCore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T19:10:11.702Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
+          "DockedWidth": 166,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "programEF.cs",
-              "DocumentMoniker": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\programEF.cs",
-              "RelativeDocumentMoniker": "efcore\\efcore_training\\programEF.cs",
-              "ToolTip": "C:\\Users\\Andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\site\\learn\u002Bpractice\\efcore\\efcore_training\\programEF.cs",
-              "RelativeToolTip": "efcore\\efcore_training\\programEF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Tema\\Desktop\\learn\u002Bpractice\\EFCore_train\\efcore\\efcore_training\\AutoGenModels\\Category.cs",
+              "RelativeDocumentMoniker": "efcore\\efcore_training\\AutoGenModels\\Category.cs",
+              "ToolTip": "C:\\Users\\Tema\\Desktop\\learn\u002Bpractice\\EFCore_train\\efcore\\efcore_training\\AutoGenModels\\Category.cs",
+              "RelativeToolTip": "efcore\\efcore_training\\AutoGenModels\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T18:12:05.392Z",
+              "WhenOpened": "2025-07-01T11:47:10.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NorthwindDb.cs",
+              "DocumentMoniker": "C:\\Users\\Tema\\Desktop\\learn\u002Bpractice\\EFCore_train\\efcore\\efcore_training\\AutoGenModels\\NorthwindDb.cs",
+              "RelativeDocumentMoniker": "efcore\\efcore_training\\AutoGenModels\\NorthwindDb.cs",
+              "ToolTip": "C:\\Users\\Tema\\Desktop\\learn\u002Bpractice\\EFCore_train\\efcore\\efcore_training\\AutoGenModels\\NorthwindDb.cs",
+              "RelativeToolTip": "efcore\\efcore_training\\AutoGenModels\\NorthwindDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:42:19.452Z",
               "EditorCaption": ""
             }
           ]
