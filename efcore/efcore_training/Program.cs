@@ -10,9 +10,10 @@ namespace efcore_training
     {
         static void Main(string[] args)
         {
-            WriteLine("are you kidding me???");
             ConfigureConsole();
             QueringCaregories();
+            Console.WriteLine( "Single/Frist LINQ");
+            GettinOneProduct();
         }
     }
 }

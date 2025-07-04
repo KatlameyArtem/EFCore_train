@@ -2660,23 +2660,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tema\\.nuget\\packages\\": {},
-    "D:\\Новая папка\\NuGetPackages": {}
+    "C:\\Users\\Andre\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\learn+practice\\learn+practice.csproj",
+      "projectUniqueName": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\learn+practice\\learn+practice.csproj",
       "projectName": "learn+practice",
-      "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\learn+practice\\learn+practice.csproj",
-      "packagesPath": "C:\\Users\\Tema\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\learn+practice\\obj\\",
+      "projectPath": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\learn+practice\\learn+practice.csproj",
+      "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\learn+practice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Новая папка\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

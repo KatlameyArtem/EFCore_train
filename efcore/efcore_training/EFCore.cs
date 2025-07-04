@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System.Security.Cryptography.X509Certificates;
 
 namespace efcore_training
@@ -14,6 +15,7 @@ namespace efcore_training
                 .Property(category => category.CategoryName)
                 .IsRequired()//not null
                 .HasMaxLength(15);
+            
 //            "Эй, EF Core! Когда будешь создавать таблицу Categories, учти, что поле CategoryName должно быть:
 
 //            NOT NULL(обязательно, нельзя пустое)
@@ -33,7 +35,9 @@ namespace efcore_training
 
 
             string connectionString = @"Server=.\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;Encrypt=False;TrustServerCertificate=True;";
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseSqlServer(connectionString)
+                .LogTo(WriteLine,LogLevel.Information)
+                .EnableSensitiveDataLogging();
 
 
             //Server = (localdb)\MSSQLLocalDB;      Локальный сервер SQL (устанавливается с Visual Studio)
