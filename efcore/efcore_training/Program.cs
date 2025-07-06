@@ -10,10 +10,11 @@ namespace efcore_training
     {
         static void Main(string[] args)
         {
-            ConfigureConsole();
-            QueringCaregories();
-            Console.WriteLine( "Single/Frist LINQ");
-            GettinOneProduct();
+            //ConfigureConsole();
+            //QueringCaregories();
+            //Console.WriteLine( "Single/Frist LINQ");
+            //GettinOneProduct();
+            QueryingWithLike();
         }
     }
 }

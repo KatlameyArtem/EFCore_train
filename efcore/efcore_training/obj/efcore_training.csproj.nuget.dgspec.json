@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\efcore_training.csproj": {}
+    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\efcore_training.csproj": {
+    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\efcore_training.csproj",
+        "projectUniqueName": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj",
         "projectName": "efcore_training",
-        "projectPath": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\efcore_training.csproj",
-        "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\efcore\\efcore_training\\obj\\",
+        "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj",
+        "packagesPath": "C:\\Users\\Tema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Новая папка\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tema\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\EntityModels\\EntityModels.csproj": {
-                "projectPath": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\EntityModels\\EntityModels.csproj"
+              "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj": {
+                "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj"
               }
             }
           }
@@ -85,20 +85,20 @@
         }
       }
     },
-    "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\EntityModels\\EntityModels.csproj": {
+    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\EntityModels\\EntityModels.csproj",
+        "projectUniqueName": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj",
         "projectName": "EntityModels",
-        "projectPath": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\EntityModels\\EntityModels.csproj",
-        "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andre\\OneDrive\\Рабочий стол\\site\\learn+practice\\EntityModels\\obj\\",
+        "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj",
+        "packagesPath": "C:\\Users\\Tema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Новая папка\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tema\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

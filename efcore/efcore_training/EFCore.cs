@@ -35,10 +35,9 @@ namespace efcore_training
 
 
             string connectionString = @"Server=.\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;Encrypt=False;TrustServerCertificate=True;";
-            optionsBuilder.UseSqlServer(connectionString)
-                .LogTo(WriteLine,LogLevel.Information)
-                .EnableSensitiveDataLogging();
-
+            optionsBuilder.UseSqlServer(connectionString);
+                //.LogTo(WriteLine,LogLevel.Information)
+                //.EnableSensitiveDataLogging();
 
             //Server = (localdb)\MSSQLLocalDB;      Локальный сервер SQL (устанавливается с Visual Studio)
             //Database = Northwind;                Имя базы данных (ты уже импортировал файл .sql)

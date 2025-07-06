@@ -41,15 +41,57 @@ namespace efcore_training
             {
                 Write("enter a product ID:");
                 input = ReadLine();
-            }while(int.TryParse(input, out id));
+            }while(!int.TryParse(input, out id));
             Product? product = db.Products?
                 .First(product => product.ProductId == id);
+            
             Info($"First {product?.ProductName}");
+            
             if (product is null) { Fail("no product found using First"); }
             product = db.Products?
                 .Single(product => product.ProductId == id);
+            
             Info($"Single : {product?.ProductName}");
+            
             if(product is null) { Fail("no product found usinf Single"); }
-        } 
+        }
+        private static void QueryingWithLike()
+        {
+            using NorthwindDb db = new();
+
+            SectionTitle("Pattern matching with LIKE");
+
+            Write("Enter part of a product name: ");
+            string? input = ReadLine()?.Trim();
+
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                Fail("You didn't enter part of a product name.");
+                return;
+            }
+
+            Info($"DEBUG: input = '{input}'");
+
+            var products = db.Products?
+                .Where(p => EF.Functions.Like(
+                    EF.Functions.Collate(p.ProductName, "SQL_Latin1_General_CP1_CI_AS"),
+                    $"%{input}%"))
+                .ToList();
+
+            if (!products.Any())
+            {
+                Fail("No products found.");
+                return;
+            }
+
+            foreach (var product in products)
+            {
+                WriteLine($"{product.ProductName} has {product.Stock} units stock. Discontinued: {product.Discontinued}");
+            }
+
+            WriteLine("Нажмите любую клавишу...");
+            ReadKey();
+        }
+
     }
 }
