@@ -92,6 +92,23 @@ namespace efcore_training
             WriteLine("Нажмите любую клавишу...");
             ReadKey();
         }
+        private static void GetRandomProduct()
+        {
+            using NorthwindDb db = new();
+            SectionTitle("Get a random product");
+            int? rowCount = db.Products?.Count();
+            if (rowCount is null)
+            {
+                Fail("Product table is empty");
+                return;
+            }
+
+            Product? p = db.Products?.FirstOrDefault(
+                p => p.ProductId == (int) (EF.Functions.Random()* rowCount ));
+
+            if (p == null) { Fail("Product no found"); return; }
+            WriteLine($"Random product: {p.ProductId} - {p.ProductName}");
+        }
 
     }
 }
