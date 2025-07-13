@@ -15,6 +15,9 @@ namespace efcore_training
                 .Property(category => category.CategoryName)
                 .IsRequired()//not null
                 .HasMaxLength(15);
+
+            modelBuilder.Entity<Product>()
+                .HasQueryFilter(p => !p.Discontinued);
             
 //            "Эй, EF Core! Когда будешь создавать таблицу Categories, учти, что поле CategoryName должно быть:
 
