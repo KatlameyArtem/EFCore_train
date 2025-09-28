@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj": {}
+    "D:\\front\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj": {
+    "D:\\front\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj",
+        "projectUniqueName": "D:\\front\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj",
         "projectName": "efcore_training",
-        "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj",
+        "projectPath": "D:\\front\\EFCore_train\\efcore\\efcore_training\\efcore_training.csproj",
         "packagesPath": "C:\\Users\\Tema\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\efcore\\efcore_training\\obj\\",
+        "outputPath": "D:\\front\\EFCore_train\\efcore\\efcore_training\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Новая папка\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj": {
-                "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj"
+              "D:\\front\\EFCore_train\\EntityModels\\EntityModels.csproj": {
+                "projectPath": "D:\\front\\EFCore_train\\EntityModels\\EntityModels.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj": {
+    "D:\\front\\EFCore_train\\EntityModels\\EntityModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj",
+        "projectUniqueName": "D:\\front\\EFCore_train\\EntityModels\\EntityModels.csproj",
         "projectName": "EntityModels",
-        "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\EntityModels.csproj",
+        "projectPath": "D:\\front\\EFCore_train\\EntityModels\\EntityModels.csproj",
         "packagesPath": "C:\\Users\\Tema\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\EntityModels\\obj\\",
+        "outputPath": "D:\\front\\EFCore_train\\EntityModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Новая папка\\NuGetPackages"

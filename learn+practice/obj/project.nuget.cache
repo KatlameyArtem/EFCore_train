@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yf8zkduVa5w=",
+  "dgSpecHash": "LC6zxUnXLhg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\learn+practice\\learn+practice.csproj",
+  "projectFilePath": "D:\\front\\EFCore_train\\learn+practice\\learn+practice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tema\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Tema\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

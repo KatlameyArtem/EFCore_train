@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\learn+practice\\learn+practice.csproj": {}
+    "D:\\front\\EFCore_train\\learn+practice\\learn+practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\learn+practice\\learn+practice.csproj": {
+    "D:\\front\\EFCore_train\\learn+practice\\learn+practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\learn+practice\\learn+practice.csproj",
+        "projectUniqueName": "D:\\front\\EFCore_train\\learn+practice\\learn+practice.csproj",
         "projectName": "learn+practice",
-        "projectPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\learn+practice\\learn+practice.csproj",
+        "projectPath": "D:\\front\\EFCore_train\\learn+practice\\learn+practice.csproj",
         "packagesPath": "C:\\Users\\Tema\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tema\\Desktop\\learn+practice\\EFCore_train\\learn+practice\\obj\\",
+        "outputPath": "D:\\front\\EFCore_train\\learn+practice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Новая папка\\NuGetPackages"

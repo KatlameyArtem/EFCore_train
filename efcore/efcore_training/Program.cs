@@ -14,7 +14,7 @@ namespace efcore_training
             //QueringCaregories();
             //Console.WriteLine( "Single/Frist LINQ");
             //GettinOneProduct();
-            QueryingWithLike();
+            //QueryingWithLike();
             //GetRandomProduct();
         }
     }
