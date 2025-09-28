@@ -31,11 +31,40 @@ namespace efcore_training
                 ForegroundColor = previousColor;
             }
         }
-        private static void (int affected, int productId) AddProducts(int categoryId,string productName,decimal? price, short? stock)
+        private static (int affected, int productId) AddProducts(int categoryId,string productName,decimal? price, short? stock)
         {
             using NorthwindDb db = new NorthwindDb();
+            Product p = new()
+            {
+                CategoryId = categoryId,
+                ProductName = productName,
+                Cost = price,
+                Stock = stock
+            };
 
+
+            //Set products as added in change tracking
+            EntityEntry<Product> entity = db.Products.Add(p);
+            WriteLine($"State: {entity.State},ProductId {p.ProductId}");
+
+
+            //Save tracked change to database
+            int affected =  db.SaveChanges();
+            WriteLine($"State: {entity.State},ProductId {p.ProductId}");
+            return (affected, p.ProductId);
         }
-        
+        private static (int affected,int productId) IncreaseProductPrise(string productNameStartsWith,decimal amount)
+        {
+            using NorthwindDb db = new();
+            if (db.Products is null) return (0,0);
+
+            //get the first product whose name starts with the parameter value
+            Product updateProduct = db.Products.First(p => p.ProductName.StartsWith(productNameStartsWith));
+
+            updateProduct.Cost += amount;
+
+            int affected = db.SaveChanges();
+            return (affected, updateProduct.ProductId);
+        }
     }
 }

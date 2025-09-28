@@ -16,6 +16,18 @@ namespace efcore_training
             //GettinOneProduct();
             //QueryingWithLike();
             //GetRandomProduct();
+            //var resultadd = AddProducts(6, "Bob`s Burfers", 500M, 72);
+            //if(resultadd.affected == 1)
+            //{
+            //    WriteLine($"Add product successful with ID:{resultadd.productId}");
+            //}
+            //ListProducts(productIdsToHightlight: new[] { resultadd.productId });
+            var resultUpdate = IncreaseProductPrise("Bob", 20M);
+            if(resultUpdate.affected == 1)
+            {
+                WriteLine($"Increase price success for ID: {resultUpdate.productId}");
+            }
+            ListProducts(productIdsToHightlight: new[] {resultUpdate.productId });
         }
     }
 }
