@@ -66,5 +66,39 @@ namespace efcore_training
             int affected = db.SaveChanges();
             return (affected, updateProduct.ProductId);
         }
+        private static int DeleteProducts(string productNameStartsWith)
+        {
+            using NorthwindDb db = new();
+            IQueryable<Product>? products = db.Products?.Where(p => p.ProductName.StartsWith(productNameStartsWith));
+
+            if (products is null || !products.Any())
+            {
+                WriteLine("No products found to delete");
+                return 0;
+            }
+            else
+            {
+                if(db.Products is null) return 0;
+                db.Products.RemoveRange(products);
+            }
+            int affected = db.SaveChanges();
+            return affected;
+        }
+        private static (int affected, int[]? productsIds) IncreaseProductPricesBetter(string productNameStartsWith,decimal amount)
+        {
+            using NorthwindDb db = new();
+
+            if (db.Products is null) return (0, null);
+
+
+            //get products whose name starts with parameters value.
+            IQueryable<Product> products = db.Products.Where(p => p.ProductName.StartsWith(productNameStartsWith));
+
+            int affected = products.ExecuteUpdate(s => s.SetProperty(p => p.Cost, p => p.Cost + amount));
+
+            int[] productsIds = products.Select(p => p.ProductId).ToArray();
+
+            return (affected, productsIds);
+        }
     }
 }
