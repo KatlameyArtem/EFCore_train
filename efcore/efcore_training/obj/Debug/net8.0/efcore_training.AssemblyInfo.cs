@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("efcore_training")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d25a5930d195acc08000fc233a925371edbadad4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d97a1dccd7459ba5af34e6905abfb891ed35b17b")]
 [assembly: System.Reflection.AssemblyProductAttribute("efcore_training")]
 [assembly: System.Reflection.AssemblyTitleAttribute("efcore_training")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

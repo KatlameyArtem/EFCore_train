@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efcore_training", "efcore\e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityModels", "EntityModels\EntityModels.csproj", "{3E2C3685-5FA0-4640-BD42-2E79EEA499C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithObjects", "..\LinqWithObjects\LinqWithObjects.csproj", "{1E0DD25E-88B3-4A99-A44C-3A8481B9662C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3E2C3685-5FA0-4640-BD42-2E79EEA499C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2C3685-5FA0-4640-BD42-2E79EEA499C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2C3685-5FA0-4640-BD42-2E79EEA499C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0DD25E-88B3-4A99-A44C-3A8481B9662C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0DD25E-88B3-4A99-A44C-3A8481B9662C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0DD25E-88B3-4A99-A44C-3A8481B9662C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0DD25E-88B3-4A99-A44C-3A8481B9662C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
