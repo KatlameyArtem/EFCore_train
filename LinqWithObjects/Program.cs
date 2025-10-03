@@ -14,7 +14,9 @@ namespace LinqWithObjects
             string[] names = { "Michael", "Pam", "Jim", "Dwight", "Angela", "Kevin", "Toby", "Creed" };
 
             //DefferedExecution(names);
-            FilteringUsingWhere(names);
+            //FilteringByType();
+            //FilteringUsingWhere(names);
+            WorkingWithSets();
         }
     }
 }

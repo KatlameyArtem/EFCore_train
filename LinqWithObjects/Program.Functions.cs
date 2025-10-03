@@ -33,7 +33,7 @@ namespace LinqWithObjects
                 //On a second iteration Jimmy does not
                 //end with an "m" so it does not get output
             }
-            
+
         }
         private static void FilteringUsingWhere(string[] names)
         {
@@ -51,18 +51,17 @@ namespace LinqWithObjects
 
 
             //Using a lambda expression instead of a named method
-            var query = names
+            IOrderedEnumerable<string> query = names //var
                 .Where(names => names.Length > 4)
                 .OrderBy(names => names.Length)
                 .ThenBy(names => names);
-                
 
             //var query = names.OrderBy(name => name);
             //var query = names.Order();
 
 
 
-            foreach(string item in query)
+            foreach (string item in query)
             {
                 WriteLine(item);
             }
@@ -71,5 +70,65 @@ namespace LinqWithObjects
         {
             return name.Length > 4;
         }
+
+    static void FilteringByType()
+        {
+            SectionTitle("Filtering by type");
+
+            List<Exception> exepctions = new()
+            {
+                new ArgumentException(),new SystemException(),
+                new IndexOutOfRangeException(),new InvalidOperationException(),
+                new NullReferenceException(),new InvalidCastException(),
+                new OverflowException(), new DivideByZeroException(),
+                new ApplicationException()
+            };
+
+            IEnumerable<ArithmeticException> arithmeticExceptionsQuery =
+                exepctions.OfType<ArithmeticException>();
+
+
+            foreach(ArithmeticException exeptioin in arithmeticExceptionsQuery)
+            {
+                WriteLine(exeptioin);
+            }
+        }
+        static void Output(IEnumerable<string> cohort, string description = "")
+        {
+            if (!string.IsNullOrEmpty(description))
+            {
+                Write(description);
+            }
+            WriteLine(string.Join(",", cohort.ToArray()));
+        }
+        static void WorkingWithSets()
+        {
+            string[] cohort1 =
+                {"Rachel","Gareth","Jonathan","George"};
+            string[] cohort2 =
+                {"Jack","Stephen","Daniel","Jack","Jared"};
+            string[] cohort3 =
+                {"Declan","Jack","Jack","Jasmine","Conor"};
+            SectionTitle("The cohorts");
+
+
+            Output(cohort1);
+            Output(cohort2);
+            Output(cohort3);
+
+
+            SectionTitle("Set operations");
+            
+            
+            Output(cohort2.Distinct(), "cohort2.Distinct()");
+            Output(cohort2.DistinctBy(name =>  name.Substring(0,2)), "name =>  name.Substring(0,2)");
+            Output(cohort2.Union(cohort3), "cohort2.Union(cohort3)");
+            Output(cohort2.Concat(cohort3), "cohort2.Concat(cohort3)");
+            Output(cohort2.Intersect(cohort3), "cohort2.Intersect(cohort3)");
+            Output(cohort2.Except(cohort3), "cohort2.Except(cohort3)");
+            Output(cohort1.Zip(cohort2, (c1, c2) => $"{c1} matched with {c2}"), "cohort1.Zip(cohort2)");
+        }
     }
+
+
 }
