@@ -11,11 +11,11 @@
 		<Using Include="System.Console" Static="true" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Version="8.0.0" Include="Microsoft.EntityFrameworkCore.Design">
+		<PackageReference Version="9.0.9" Include="Microsoft.EntityFrameworkCore.Design">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Version="8.0.0" Include="Microsoft.EntityFrameworkCore.SqlServer" />
+		<PackageReference Version="9.0.9" Include="Microsoft.EntityFrameworkCore.SqlServer" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\..\EntityModels\EntityModels.csproj" />
