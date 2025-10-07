@@ -14,7 +14,8 @@ namespace LinqWithEFCore
             //FilterAndSort();
             //JoinCategoriesAndProducts();
             //GroupJoinCategoriesAndProducts();
-            ProductsForLookups();
+            //ProductsForLookups();
+            AggregateProducts();
         }
     }
 }

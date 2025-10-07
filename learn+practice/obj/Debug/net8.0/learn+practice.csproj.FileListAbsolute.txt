@@ -190,3 +190,10 @@ D:\front\EFCore_train\learn+practice\obj\Debug\net8.0\refint\learn+practice.dll
 D:\front\EFCore_train\learn+practice\obj\Debug\net8.0\learn+practice.pdb
 D:\front\EFCore_train\learn+practice\obj\Debug\net8.0\learn+practice.genruntimeconfig.cache
 D:\front\EFCore_train\learn+practice\obj\Debug\net8.0\ref\learn+practice.dll
+D:\front\EFCore_train\learn+practice\bin\Debug\net8.0\System.ClientModel.dll
+D:\front\EFCore_train\learn+practice\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\front\EFCore_train\learn+practice\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\front\EFCore_train\learn+practice\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\front\EFCore_train\learn+practice\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\front\EFCore_train\learn+practice\bin\Debug\net8.0\System.Text.Json.dll
+D:\front\EFCore_train\learn+practice\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

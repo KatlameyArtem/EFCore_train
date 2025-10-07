@@ -132,5 +132,46 @@ namespace LinqWithEFCore
                 WriteLine($"   {product.ProductName}");
             }
         }
+        private static void AggregateProducts()
+        {
+            SectionTitle("Aggreagation products");
+
+            using NorthwindDb db = new();
+
+            //Try to get an efficient count from EF Core DbSet<T>
+            if(db.Products.TryGetNonEnumeratedCount(out int countDbSet))
+            {
+                WriteLine($"{"Product count from DbSet:",-25} {countDbSet,10}");
+            }
+            else
+            {
+                WriteLine("Products DbSet does not have a Count propery.");
+            }
+
+            //Try to get an efficcient count from List<T>
+            List<Product> products = db.Products.ToList();
+
+            if(products.TryGetNonEnumeratedCount(out int countList))
+            {
+                WriteLine($"{"Product count from list:",-25} {countList,10}");
+            }
+            else
+            {
+                WriteLine("Products DbSet does not have a Count propery.");
+            }
+
+            WriteLine($"{"Product count: ",-25} {db.Products.Count(),10}");
+
+            WriteLine($"{"Discountinued product count:",-27}{db.Products.Count(product => product.Discontinued),8}");
+
+            WriteLine($"{"Highest product price:",-25} {db.Products.Max(p => p.UnitPrice),10:$#,##0.00}");
+
+            WriteLine($"{"Sum of units in stock:",-25} {db.Products.Sum(p => p.UnitPrice),10:N0}");
+
+            WriteLine($"{"Average unit price:",-25}{db.Products.Average(p => p.UnitPrice),10:$#,##0.00} ");
+
+            WriteLine($"{"Value of units in stock:",-25}{db.Products.Sum(p => p.UnitPrice * p.UnitsInStock),10:$#,##0.00}");
+
+        }
     }
 }
